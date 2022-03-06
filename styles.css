@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #35424a;
+    color: #fff;
+    padding: 7px 0;;
+    min-height: 70px;
+    border-bottom: 3px solid #e8491d;
+}
+
+span,
+.home a {
+    color:#e8491d;
+    font-weight: bold;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+.branding {
+    flex: 1;
+}
+
+nav {
+    flex: 1;
+}
+
+.showcase {
+    background-image: url("https://www.floggingsails.com/images/showcase.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.showcase .container {
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+}
+
+.showcase .container h1 {
+    margin-top: 45px;
+    margin-bottom: 5px;
+    font-size: 55px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.showcase .container p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+    padding-bottom: 50px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.newsletter {
+    height: 101px;
+    background-color:#35424a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.newsletter h1 {
+    color: #fff;
+    flex: 1;
+}
+
+.newsletter form {
+    flex: 1;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.newsletter input {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    border: 2px inset rgb(118, 118, 118);
+}
+
+.button-1 {
+    color: #fff;
+    height: 38px;
+    background-color: #e8491d;
+    border: 0;
+}
+
+.boxes {
+    padding: 20px;
+}
+
+.box {
+    padding: 10px;
+    text-align: center;
+}
+
+.box img {
+    width: 90px;
+    height: auto;
+}
+
+footer {
+    color: #fff;
+    background-color: #e8491d;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-us .left {
+    flex: 2;
+}
+
+.about-us .right {
+    flex: 1;
+    height: auto;
+    margin-left: 60px;
+}
+
+.dark {
+    color: #fff;
+    background-color: #35424a;
+    padding: 15px;
+    margin: 10px 0
+}
+
+.about-us p {
+    margin: 15px 0px;
+}
+
+.services .listing {
+    flex: 2;
+}
+
+.services .quote {
+    flex: 1;
+    margin-left: 60px;
+    height: 100vh;
+}
+
+.services form input, textarea {
+    width: 90%;
+}
+
+.services ul {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.listing li {
+    list-style: none;
+    background-color: #e6e6e6;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.services aside {
+    column-span: all;
+}
+
+.services .container {
+    align-items: flex-start;
+}
